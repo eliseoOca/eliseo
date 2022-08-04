@@ -1,0 +1,22 @@
+<!--Solicitar que se ingrese dos veces una clave. Mostrar un mensaje si son iguale.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let clave1;
+        clave1=parseInt(prompt('Ingrese primera clave: '));
+        let clave2;
+        clave2=parseInt(prompt('Ingrese la segunda clave: '));
+        if(clave1==clave2){
+            document.write('la clave 1: ' + '(' + clave1 + ')' + ' ' + 'Es igual a la clave 2: ' + '(' + clave2 + ')' );
+        }
+    </script>
+</body>
+</html>

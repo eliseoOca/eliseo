@@ -1,0 +1,23 @@
+<!--Ejemplo: Se ingresa por teclado el sueldo de un empleado 
+    (se puede ingresar un valor con decimales), 
+    si el sueldo supera los 3000 pesos, luego mostrar un mensaje indicando que debe abonar impuestas.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sueldo;
+        sueldo = parseFloat(prompt('Ingrese el sueldo del empleado:'));
+        if (sueldo >= 3000) {
+            document.write('Como el sueldo es de ' + sueldo + ' debe abonar impuestos');
+        }
+    </script>
+
+</body>
+</html>

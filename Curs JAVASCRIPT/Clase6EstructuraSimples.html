@@ -1,0 +1,22 @@
+<!--Ejemplo: Realizar la carga de una nota de un alumno. Mostrar un mensaje que aprobó si tiene una nota mayor o igual a 4:-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombre;
+        let nota;
+        nombre = prompt('Ingrese nombre:');
+        nota = parseInt(prompt('Ingrese su nota:'));
+        if (nota >= 4) {
+            document.write(nombre + ' esta aprobado con un ' + nota);
+        }
+    </script>
+</body>
+</html>

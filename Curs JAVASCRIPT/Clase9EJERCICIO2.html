@@ -1,0 +1,24 @@
+<!--Se ingresan tres valores por teclado, si todos son iguales se imprime la suma del primero con el segundo
+     y a este resultado se lo multiplica por el tercero (tener en cuenta que puede haber tres condiciones simples)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor1,valor2,valor3;
+        valor1=parseInt(prompt('Ingrese el primer valor: '));
+        valor2=parseInt(prompt('Ingrese el segundo valor: '));
+        valor3=parseInt(prompt('Ingrese el tercer valor: '));
+        let sumaMulti;
+        sumaMulti=(valor1+valor2)*valor3;
+        if(valor1==valor2 && valor1==valor3 && valor2==valor3){
+            document.write('La suma del primer valor con el segundo valor y multiplicado con el tercer valor es: ' + sumaMulti);
+        }
+    </script>
+</body>
+</html>
